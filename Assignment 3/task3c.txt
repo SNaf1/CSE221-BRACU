@@ -1,0 +1,7 @@
+In the bubble sort implementation, the order of patients in the output is determined by the order in which they are dequeued from the queue. 
+Since ABC is enqueued before EWQ, it is dequeued first, resulting in ABC appearing before EWQ in the output. 
+
+In the heap sort implementation, the order of patients in the output is determined by the order in which they are removed from the heap. 
+Since heap sort uses a min-heap, the patient with the highest priority (lowest priority number) is always removed first. 
+In this case, KLM has the highest priority of 1, followed by SDF and FDS with priority 2, and then XCV and EWQ with priority 3. 
+Therefore, KLM is removed first, followed by SDF, FDS, XCV, and finally EWQ, resulting in the order of patients in the output being different from the order in which they were enqueued.
